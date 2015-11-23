@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B4EB4BFEB041E7A57CFBE6FDEF8D90622AC0EAF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B4EB4BFEB041E7A57CFBE6FDEF8D90622AC0EAF" : 0,
+    "B1F0C533BE65D81026AB1724005A0E4C06B3A716" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5459B86D-8461-4DCA-964C-DAF3662FDB3D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B4EB4BFEB041E7A57CFBE6FDEF8D90622AC0EAF" : "Messaging\/",
+    "B1F0C533BE65D81026AB1724005A0E4C06B3A716" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Messaging",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Messaging.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/drandicus\/Messaging.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B4EB4BFEB041E7A57CFBE6FDEF8D90622AC0EAF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:drandicus\/ABananaPerspective.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1F0C533BE65D81026AB1724005A0E4C06B3A716"
+    }
+  ]
+}

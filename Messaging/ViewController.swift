@@ -135,8 +135,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //Initializes the Variable
         let newMessage:PFObject = PFObject(className:"Message")
         
-        
-        
         //Set the text
         newMessage["Text"] = self.messageTextField.text
         newMessage["Sender"] = self.sender
@@ -216,7 +214,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell:UITableViewCell = (self.messageTableView.dequeueReusableCellWithIdentifier("MessageCell"))! as UITableViewCell
         cell.textLabel?.text = self.messagesArray[indexPath.row]
         
-        
         if(self.senderMessages[indexPath.row] == true){
             cell.textLabel?.textAlignment = NSTextAlignment.Right
             cell.textLabel?.backgroundColor = UIColor.whiteColor()
@@ -225,6 +222,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.backgroundColor = UIColor.blueColor()
         }
         
+        tableView.estimatedRowHeight = 10.0
+        tableView.rowHeight = UITableViewAutomaticDimension
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.lineBreakMode = NSLineBreakMode.ByWordWrapping
         
